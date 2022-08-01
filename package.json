@@ -1,0 +1,28 @@
+{
+  "name": "jain-logic-api-node",
+  "version": "1.0.0",
+  "description": "Example of interaction with Jain Logic API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmearerjain/jain-logic-api-node.git"
+  },
+  "keywords": [
+    "jain",
+    "api",
+    "node"
+  ],
+  "author": "msmearerjain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msmearerjain/jain-logic-api-node/issues"
+  },
+  "type": "commonjs",
+  "homepage": "https://github.com/msmearerjain/jain-logic-api-node#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
