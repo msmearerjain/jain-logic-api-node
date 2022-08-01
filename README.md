@@ -1,2 +1,2 @@
 # jain-logic-api-node
-Sample of interaction with the Jain Logic API.
+An example of interaction with the Jain Logic API using node.js.
