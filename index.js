@@ -3,7 +3,7 @@ const JainLogicApi = require('./JainLogicApi');
 
 // Create a client with the base URI and Jain Logic API key
 const client = new JainLogicApiClient(
-    'https://developer.jainlogic.com/v2/api/', '<YOUR_API_KEY>'
+    'https://<YOUR_API_URL>', '<YOUR_API_KEY>'
 );
 
 async function readApiData() {
