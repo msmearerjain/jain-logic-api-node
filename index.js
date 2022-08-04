@@ -3,14 +3,14 @@ const JainLogicApi = require('./JainLogicApi');
 
 // Create a client with the base URI and Jain Logic API key
 const client = new JainLogicApiClient(
-    'https://<YOUR_API_URL>', '<YOUR_API_KEY>'
+    'https://<YOUR_API_URI>', '<YOUR_API_KEY>'
 );
 
 async function readApiData() {
-    // read all customers
+    // Read all customers
     const customers = await client.getCustomers();
 
-    // read all measured locations for the first customer
+    // Read all measured locations for the first customer
     const measuredLocations = await client.getMeasuredLocations(customers[0].id);
 
     // Build a window representing 3 hours
